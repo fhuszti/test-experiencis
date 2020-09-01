@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import CssBaseline from '@material-ui/core/CssBaseline';
+import { ThemeProvider } from '@material-ui/core/styles';
 import Layout from "../components/layout/Layout";
+import theme from "../styles/global/theme";
 
 function MyApp({ Component, pageProps }) {
 	useEffect(() => {
@@ -12,10 +14,12 @@ function MyApp({ Component, pageProps }) {
 	
 	return (
 		<React.Fragment>
-			<CssBaseline />
-			<Layout>
-				<Component {...pageProps} />
-			</Layout>
+			<ThemeProvider theme={theme}>
+				<CssBaseline />
+				<Layout>
+					<Component {...pageProps} />
+				</Layout>
+			</ThemeProvider>
 		</React.Fragment>
 	);
 }
