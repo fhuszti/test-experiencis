@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Layout from "../components/layout/Layout";
 
 function MyApp({ Component, pageProps }) {
 	useEffect(() => {
@@ -12,7 +13,9 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<React.Fragment>
 			<CssBaseline />
-			<Component {...pageProps} />
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
 		</React.Fragment>
 	);
 }
