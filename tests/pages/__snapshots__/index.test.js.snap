@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctement 1`] = `
+<div>
+  <main>
+    <section
+      className="makeStyles-root-1"
+    />
+    <section
+      className="MuiContainer-root makeStyles-root-2 MuiContainer-maxWidthLg"
+    >
+      <article
+        className="MuiPaper-root MuiCard-root makeStyles-root-6 makeStyles-root-14 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <header
+          className="MuiCardHeader-root"
+        >
+          <div
+            className="MuiCardHeader-avatar"
+          >
+            <div
+              aria-label="Une clé"
+              className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-7 makeStyles-avatar-15 MuiAvatar-colorDefault"
+              color="primary"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="MuiCardHeader-content"
+          >
+            <span
+              className="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              Se connecter
+            </span>
+            <span
+              className="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+            >
+              Retrouvez vos informations personnelles
+            </span>
+          </div>
+        </header>
+        <section
+          className="MuiCardContent-root"
+        >
+          <form
+            className="makeStyles-root-3"
+            onSubmit={[Function]}
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root makeStyles-input-4 MuiFormControl-fullWidth"
+            >
+              <label
+                className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+                data-shrink={false}
+                htmlFor="email"
+                id="email-label"
+              >
+                Adresse email
+                <span
+                  aria-hidden={true}
+                  className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                >
+                   
+                  *
+                </span>
+              </label>
+              <div
+                className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+                onClick={[Function]}
+              >
+                <input
+                  aria-invalid={false}
+                  autoFocus={true}
+                  className="MuiInputBase-input MuiOutlinedInput-input"
+                  disabled={false}
+                  id="email"
+                  name="email"
+                  onAnimationStart={[Function]}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={true}
+                  type="email"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden={true}
+                  className="PrivateNotchedOutline-root-10 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    className="PrivateNotchedOutline-legendLabelled-12"
+                  >
+                    <span>
+                      Adresse email
+                       *
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              className="MuiFormControl-root MuiTextField-root makeStyles-input-4 MuiFormControl-fullWidth"
+            >
+              <label
+                className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+                data-shrink={false}
+                htmlFor="password"
+                id="password-label"
+              >
+                Mot de passe
+                <span
+                  aria-hidden={true}
+                  className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                >
+                   
+                  *
+                </span>
+              </label>
+              <div
+                className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+                onClick={[Function]}
+              >
+                <input
+                  aria-invalid={false}
+                  autoFocus={false}
+                  className="MuiInputBase-input MuiOutlinedInput-input"
+                  disabled={false}
+                  id="password"
+                  name="password"
+                  onAnimationStart={[Function]}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={true}
+                  type="password"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden={true}
+                  className="PrivateNotchedOutline-root-10 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    className="PrivateNotchedOutline-legendLabelled-12"
+                  >
+                    <span>
+                      Mot de passe
+                       *
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <a
+              className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+              href="/"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              title="Réinitialiser son mot de passe"
+            >
+              Mot de passe oublié ?
+            </a>
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-5 MuiButton-containedPrimary"
+              disabled={false}
+              onBlur={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="submit"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                Connexion
+              </span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </section>
+  </main>
+</div>
+`;

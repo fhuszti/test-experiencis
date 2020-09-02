@@ -14,7 +14,7 @@ import Link from '../components/Link';
 import { useContentStyles, useFormStyles, useHeroStyles } from '../styles/pages/login';
 import { useCardStyles } from '../styles/components';
 
-export default function Home() {
+const Home = () => {
 	const theme = useTheme();
 	const heroClasses = useHeroStyles();
 	const contentClasses = useContentStyles();
@@ -69,5 +69,7 @@ export default function Home() {
 				</Container>
 			</main>
 		</div>
-	)
-}
+	);
+};
+
+export default Home;
