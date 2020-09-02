@@ -16,6 +16,13 @@ const Link = ({ href, classNameProps, innerRef, naked, ...rest }) => {
 		return <NextComposed className={classNameProps} ref={innerRef} href={href} {...rest} />;
 	
 	return <MuiLink component={NextComposed} className={classNameProps} ref={innerRef} href={href} {...rest} />;
-}
+};
+
+Link.defaultProps = {
+	href: '/',
+	classNameProps: '',
+	innerRef: null,
+	naked: false,
+};
 
 export default React.forwardRef((props, ref) => <Link {...props} innerRef={ref} />);

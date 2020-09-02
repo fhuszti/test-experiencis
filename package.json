@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "test": "jest",
     "build": "next build",
     "start": "next start"
   },
@@ -13,5 +14,9 @@
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2"
   }
 }
