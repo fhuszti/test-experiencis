@@ -35,6 +35,10 @@ const Home = () => {
 				<title>Connexion | Test Experiencis</title>
 				<link rel="icon" href="/favicon.png"/>
 				<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+				<meta name="charset" content="UTF-8"/>
+				<meta name="description" content="Page de login construite avec Material UI pour un test d'embauche."/>
+				<meta name="keywords" content="test, embauche, react, materialui, nextjs"/>
+				<meta name="robots" content="noindex, nofollow"/>
 			</Head>
 			
 			<main>
