@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render correctement 1`] = `
+exports[`index snapshot testing renders correctly 1`] = `
 <div>
   <main>
     <section
@@ -10,7 +10,7 @@ exports[`render correctement 1`] = `
       className="MuiContainer-root makeStyles-root-2 MuiContainer-maxWidthLg"
     >
       <article
-        className="MuiPaper-root MuiCard-root makeStyles-root-6 makeStyles-root-14 MuiPaper-elevation1 MuiPaper-rounded"
+        className="MuiPaper-root MuiCard-root makeStyles-root-6 makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
       >
         <header
           className="MuiCardHeader-root"
@@ -20,7 +20,7 @@ exports[`render correctement 1`] = `
           >
             <div
               aria-label="Une clé"
-              className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-7 makeStyles-avatar-15 MuiAvatar-colorDefault"
+              className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-7 makeStyles-avatar-9 MuiAvatar-colorDefault"
               color="primary"
             >
               <svg
